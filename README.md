@@ -5,6 +5,11 @@ devices publish voltage/current readings, the service validates and caches
 them, batches them into a time-series database, raises de-duplicated alerts,
 and serves a live dashboard.
 
+**▶ Live dashboard demo:** https://ebubechineka.github.io/iot-grid-telemetry/
+*(a replay of a real capture — the same UI, fed from a frozen snapshot)*
+
+![Grid telemetry dashboard](docs/dashboard.png)
+
 ```
   ┌──────────┐   MQTT    ┌──────────────┐   HSET+TTL   ┌─────────┐
   │  Nodes   │──────────▶│  Ingestion   │─────────────▶│  Redis  │

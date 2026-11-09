@@ -1,0 +1,1353 @@
+{
+ "nodes": {
+  "count": 5,
+  "thresholds": {
+   "voltageMin": 180,
+   "voltageMax": 260,
+   "staleAfterSeconds": 120
+  },
+  "nodes": [
+   {
+    "nodeId": "node-central-05",
+    "label": "node-central-05",
+    "location": null,
+    "voltage": 234.55,
+    "currentAmps": 33.16,
+    "powerWatts": 7777.7,
+    "status": "normal",
+    "ageSeconds": 0,
+    "loggedAt": "2026-11-09T20:49:58.282Z",
+    "live": true
+   },
+   {
+    "nodeId": "node-east-02",
+    "label": "node-east-02",
+    "location": null,
+    "voltage": 228.91,
+    "currentAmps": 23.01,
+    "powerWatts": 5267.2,
+    "status": "normal",
+    "ageSeconds": 0,
+    "loggedAt": "2026-11-09T20:49:58.282Z",
+    "live": true
+   },
+   {
+    "nodeId": "node-north-01",
+    "label": "node-north-01",
+    "location": null,
+    "voltage": 227.92,
+    "currentAmps": 11.65,
+    "powerWatts": 2655.3,
+    "status": "normal",
+    "ageSeconds": 0,
+    "loggedAt": "2026-11-09T20:49:58.282Z",
+    "live": true
+   },
+   {
+    "nodeId": "node-south-03",
+    "label": "node-south-03",
+    "location": null,
+    "voltage": 171.39,
+    "currentAmps": 24.57,
+    "powerWatts": 4211.1,
+    "status": "low_voltage",
+    "ageSeconds": 0,
+    "loggedAt": "2026-11-09T20:49:58.282Z",
+    "live": true
+   },
+   {
+    "nodeId": "node-west-04",
+    "label": "node-west-04",
+    "location": null,
+    "voltage": 237.96,
+    "currentAmps": 7.85,
+    "powerWatts": 1868,
+    "status": "normal",
+    "ageSeconds": 0,
+    "loggedAt": "2026-11-09T20:49:58.282Z",
+    "live": true
+   }
+  ]
+ },
+ "history": {
+  "node-central-05": [
+   {
+    "t": "2026-11-09T20:49:38.762Z",
+    "voltage": 231.69,
+    "currentAmps": 31.44,
+    "powerWatts": 7284.3
+   },
+   {
+    "t": "2026-11-09T20:49:39.262Z",
+    "voltage": 231.71,
+    "currentAmps": 31.29,
+    "powerWatts": 7250.2
+   },
+   {
+    "t": "2026-11-09T20:49:39.762Z",
+    "voltage": 231.09,
+    "currentAmps": 30.95,
+    "powerWatts": 7152.2
+   },
+   {
+    "t": "2026-11-09T20:49:40.262Z",
+    "voltage": 231.68,
+    "currentAmps": 31.09,
+    "powerWatts": 7202.9
+   },
+   {
+    "t": "2026-11-09T20:49:40.762Z",
+    "voltage": 231.04,
+    "currentAmps": 30.74,
+    "powerWatts": 7102.2
+   },
+   {
+    "t": "2026-11-09T20:49:41.262Z",
+    "voltage": 229.7,
+    "currentAmps": 30.94,
+    "powerWatts": 7106.9
+   },
+   {
+    "t": "2026-11-09T20:49:41.763Z",
+    "voltage": 229.76,
+    "currentAmps": 31.05,
+    "powerWatts": 7134
+   },
+   {
+    "t": "2026-11-09T20:49:42.264Z",
+    "voltage": 229.4,
+    "currentAmps": 30.1,
+    "powerWatts": 6904.9
+   },
+   {
+    "t": "2026-11-09T20:49:42.764Z",
+    "voltage": 229.11,
+    "currentAmps": 30.8,
+    "powerWatts": 7056.6
+   },
+   {
+    "t": "2026-11-09T20:49:43.265Z",
+    "voltage": 230.62,
+    "currentAmps": 29.87,
+    "powerWatts": 6888.6
+   },
+   {
+    "t": "2026-11-09T20:49:43.766Z",
+    "voltage": 228.93,
+    "currentAmps": 29.31,
+    "powerWatts": 6709.9
+   },
+   {
+    "t": "2026-11-09T20:49:44.267Z",
+    "voltage": 229.2,
+    "currentAmps": 30.2,
+    "powerWatts": 6921.8
+   },
+   {
+    "t": "2026-11-09T20:49:44.768Z",
+    "voltage": 229.28,
+    "currentAmps": 30.19,
+    "powerWatts": 6922
+   },
+   {
+    "t": "2026-11-09T20:49:45.268Z",
+    "voltage": 230.78,
+    "currentAmps": 29.64,
+    "powerWatts": 6840.3
+   },
+   {
+    "t": "2026-11-09T20:49:45.769Z",
+    "voltage": 231.41,
+    "currentAmps": 28.95,
+    "powerWatts": 6699.3
+   },
+   {
+    "t": "2026-11-09T20:49:46.269Z",
+    "voltage": 231.15,
+    "currentAmps": 29.03,
+    "powerWatts": 6710.3
+   },
+   {
+    "t": "2026-11-09T20:49:46.769Z",
+    "voltage": 232.01,
+    "currentAmps": 29.02,
+    "powerWatts": 6732.9
+   },
+   {
+    "t": "2026-11-09T20:49:47.269Z",
+    "voltage": 231.72,
+    "currentAmps": 29.5,
+    "powerWatts": 6835.7
+   },
+   {
+    "t": "2026-11-09T20:49:47.769Z",
+    "voltage": 232.4,
+    "currentAmps": 28.83,
+    "powerWatts": 6700.1
+   },
+   {
+    "t": "2026-11-09T20:49:48.270Z",
+    "voltage": 231.43,
+    "currentAmps": 29.93,
+    "powerWatts": 6926.7
+   },
+   {
+    "t": "2026-11-09T20:49:48.771Z",
+    "voltage": 233.98,
+    "currentAmps": 29.33,
+    "powerWatts": 6862.6
+   },
+   {
+    "t": "2026-11-09T20:49:49.271Z",
+    "voltage": 234.19,
+    "currentAmps": 29.7,
+    "powerWatts": 6955.4
+   },
+   {
+    "t": "2026-11-09T20:49:49.771Z",
+    "voltage": 233.92,
+    "currentAmps": 29.57,
+    "powerWatts": 6917
+   },
+   {
+    "t": "2026-11-09T20:49:50.272Z",
+    "voltage": 234.84,
+    "currentAmps": 30.07,
+    "powerWatts": 7061.6
+   },
+   {
+    "t": "2026-11-09T20:49:50.773Z",
+    "voltage": 234.88,
+    "currentAmps": 30.06,
+    "powerWatts": 7060.5
+   },
+   {
+    "t": "2026-11-09T20:49:51.273Z",
+    "voltage": 235.13,
+    "currentAmps": 30.29,
+    "powerWatts": 7122.1
+   },
+   {
+    "t": "2026-11-09T20:49:51.773Z",
+    "voltage": 236.11,
+    "currentAmps": 29.63,
+    "powerWatts": 6995.9
+   },
+   {
+    "t": "2026-11-09T20:49:52.274Z",
+    "voltage": 236.33,
+    "currentAmps": 30.06,
+    "powerWatts": 7104.1
+   },
+   {
+    "t": "2026-11-09T20:49:52.775Z",
+    "voltage": 236.9,
+    "currentAmps": 30.21,
+    "powerWatts": 7156.7
+   },
+   {
+    "t": "2026-11-09T20:49:53.275Z",
+    "voltage": 236.46,
+    "currentAmps": 30.78,
+    "powerWatts": 7278.2
+   },
+   {
+    "t": "2026-11-09T20:49:53.775Z",
+    "voltage": 235.93,
+    "currentAmps": 30.61,
+    "powerWatts": 7221.8
+   },
+   {
+    "t": "2026-11-09T20:49:54.276Z",
+    "voltage": 236.35,
+    "currentAmps": 31.7,
+    "powerWatts": 7492.3
+   },
+   {
+    "t": "2026-11-09T20:49:54.777Z",
+    "voltage": 236.32,
+    "currentAmps": 31.43,
+    "powerWatts": 7427.5
+   },
+   {
+    "t": "2026-11-09T20:49:55.278Z",
+    "voltage": 235.38,
+    "currentAmps": 31.67,
+    "powerWatts": 7454.5
+   },
+   {
+    "t": "2026-11-09T20:49:55.778Z",
+    "voltage": 235.61,
+    "currentAmps": 32.27,
+    "powerWatts": 7603.1
+   },
+   {
+    "t": "2026-11-09T20:49:56.279Z",
+    "voltage": 235.47,
+    "currentAmps": 32.61,
+    "powerWatts": 7678.7
+   },
+   {
+    "t": "2026-11-09T20:49:56.779Z",
+    "voltage": 235.09,
+    "currentAmps": 32.53,
+    "powerWatts": 7647.5
+   },
+   {
+    "t": "2026-11-09T20:49:57.280Z",
+    "voltage": 234.96,
+    "currentAmps": 32.15,
+    "powerWatts": 7554
+   },
+   {
+    "t": "2026-11-09T20:49:57.780Z",
+    "voltage": 233.33,
+    "currentAmps": 32.99,
+    "powerWatts": 7697.6
+   },
+   {
+    "t": "2026-11-09T20:49:58.282Z",
+    "voltage": 234.55,
+    "currentAmps": 33.16,
+    "powerWatts": 7777.7
+   }
+  ],
+  "node-east-02": [
+   {
+    "t": "2026-11-09T20:49:38.762Z",
+    "voltage": 229.44,
+    "currentAmps": 26.37,
+    "powerWatts": 6050.3
+   },
+   {
+    "t": "2026-11-09T20:49:39.262Z",
+    "voltage": 227.58,
+    "currentAmps": 26.34,
+    "powerWatts": 5994.5
+   },
+   {
+    "t": "2026-11-09T20:49:39.762Z",
+    "voltage": 228.21,
+    "currentAmps": 26.41,
+    "powerWatts": 6027
+   },
+   {
+    "t": "2026-11-09T20:49:40.262Z",
+    "voltage": 226.63,
+    "currentAmps": 26.59,
+    "powerWatts": 6026.1
+   },
+   {
+    "t": "2026-11-09T20:49:40.762Z",
+    "voltage": 225.26,
+    "currentAmps": 26.44,
+    "powerWatts": 5955.9
+   },
+   {
+    "t": "2026-11-09T20:49:41.262Z",
+    "voltage": 225.99,
+    "currentAmps": 26.63,
+    "powerWatts": 6018.1
+   },
+   {
+    "t": "2026-11-09T20:49:41.763Z",
+    "voltage": 226.79,
+    "currentAmps": 27.14,
+    "powerWatts": 6155.1
+   },
+   {
+    "t": "2026-11-09T20:49:42.264Z",
+    "voltage": 224.85,
+    "currentAmps": 27.05,
+    "powerWatts": 6082.2
+   },
+   {
+    "t": "2026-11-09T20:49:42.764Z",
+    "voltage": 224.92,
+    "currentAmps": 27.48,
+    "powerWatts": 6180.8
+   },
+   {
+    "t": "2026-11-09T20:49:43.265Z",
+    "voltage": 224.28,
+    "currentAmps": 26.95,
+    "powerWatts": 6044.3
+   },
+   {
+    "t": "2026-11-09T20:49:43.766Z",
+    "voltage": 225.37,
+    "currentAmps": 26.63,
+    "powerWatts": 6001.6
+   },
+   {
+    "t": "2026-11-09T20:49:44.267Z",
+    "voltage": 225.02,
+    "currentAmps": 26.75,
+    "powerWatts": 6019.3
+   },
+   {
+    "t": "2026-11-09T20:49:44.768Z",
+    "voltage": 223.5,
+    "currentAmps": 26.1,
+    "powerWatts": 5833.4
+   },
+   {
+    "t": "2026-11-09T20:49:45.268Z",
+    "voltage": 225.29,
+    "currentAmps": 26.13,
+    "powerWatts": 5886.8
+   },
+   {
+    "t": "2026-11-09T20:49:45.769Z",
+    "voltage": 224.27,
+    "currentAmps": 26.41,
+    "powerWatts": 5923
+   },
+   {
+    "t": "2026-11-09T20:49:46.269Z",
+    "voltage": 223.89,
+    "currentAmps": 25.7,
+    "powerWatts": 5754
+   },
+   {
+    "t": "2026-11-09T20:49:46.769Z",
+    "voltage": 225.72,
+    "currentAmps": 25.89,
+    "powerWatts": 5843.9
+   },
+   {
+    "t": "2026-11-09T20:49:47.269Z",
+    "voltage": 224.53,
+    "currentAmps": 26.32,
+    "powerWatts": 5909.6
+   },
+   {
+    "t": "2026-11-09T20:49:47.769Z",
+    "voltage": 225.81,
+    "currentAmps": 25.48,
+    "powerWatts": 5753.6
+   },
+   {
+    "t": "2026-11-09T20:49:48.270Z",
+    "voltage": 225.82,
+    "currentAmps": 25.72,
+    "powerWatts": 5808.1
+   },
+   {
+    "t": "2026-11-09T20:49:48.771Z",
+    "voltage": 226.49,
+    "currentAmps": 25.63,
+    "powerWatts": 5804.9
+   },
+   {
+    "t": "2026-11-09T20:49:49.271Z",
+    "voltage": 227.76,
+    "currentAmps": 24.94,
+    "powerWatts": 5680.3
+   },
+   {
+    "t": "2026-11-09T20:49:49.771Z",
+    "voltage": 227.88,
+    "currentAmps": 24.81,
+    "powerWatts": 5653.7
+   },
+   {
+    "t": "2026-11-09T20:49:50.272Z",
+    "voltage": 229.45,
+    "currentAmps": 24.24,
+    "powerWatts": 5561.9
+   },
+   {
+    "t": "2026-11-09T20:49:50.773Z",
+    "voltage": 229.11,
+    "currentAmps": 24.29,
+    "powerWatts": 5565.1
+   },
+   {
+    "t": "2026-11-09T20:49:51.273Z",
+    "voltage": 228.91,
+    "currentAmps": 23.77,
+    "powerWatts": 5441.2
+   },
+   {
+    "t": "2026-11-09T20:49:51.773Z",
+    "voltage": 229.03,
+    "currentAmps": 23.54,
+    "powerWatts": 5391.4
+   },
+   {
+    "t": "2026-11-09T20:49:52.274Z",
+    "voltage": 230.78,
+    "currentAmps": 23.22,
+    "powerWatts": 5358.7
+   },
+   {
+    "t": "2026-11-09T20:49:52.775Z",
+    "voltage": 231.61,
+    "currentAmps": 23.53,
+    "powerWatts": 5449.8
+   },
+   {
+    "t": "2026-11-09T20:49:53.275Z",
+    "voltage": 232,
+    "currentAmps": 23.38,
+    "powerWatts": 5424.2
+   },
+   {
+    "t": "2026-11-09T20:49:53.775Z",
+    "voltage": 231.74,
+    "currentAmps": 23.08,
+    "powerWatts": 5348.6
+   },
+   {
+    "t": "2026-11-09T20:49:54.276Z",
+    "voltage": 231.72,
+    "currentAmps": 22.41,
+    "powerWatts": 5192.8
+   },
+   {
+    "t": "2026-11-09T20:49:54.777Z",
+    "voltage": 230.7,
+    "currentAmps": 23.21,
+    "powerWatts": 5354.5
+   },
+   {
+    "t": "2026-11-09T20:49:55.278Z",
+    "voltage": 232.57,
+    "currentAmps": 22.29,
+    "powerWatts": 5184
+   },
+   {
+    "t": "2026-11-09T20:49:55.778Z",
+    "voltage": 230.44,
+    "currentAmps": 23.24,
+    "powerWatts": 5355.4
+   },
+   {
+    "t": "2026-11-09T20:49:56.279Z",
+    "voltage": 230.1,
+    "currentAmps": 22.7,
+    "powerWatts": 5223.3
+   },
+   {
+    "t": "2026-11-09T20:49:56.779Z",
+    "voltage": 230.86,
+    "currentAmps": 22.6,
+    "powerWatts": 5217.4
+   },
+   {
+    "t": "2026-11-09T20:49:57.280Z",
+    "voltage": 230.11,
+    "currentAmps": 22.09,
+    "powerWatts": 5083.1
+   },
+   {
+    "t": "2026-11-09T20:49:57.780Z",
+    "voltage": 229.75,
+    "currentAmps": 22.75,
+    "powerWatts": 5226.8
+   },
+   {
+    "t": "2026-11-09T20:49:58.282Z",
+    "voltage": 228.91,
+    "currentAmps": 23.01,
+    "powerWatts": 5267.2
+   }
+  ],
+  "node-north-01": [
+   {
+    "t": "2026-11-09T20:49:38.762Z",
+    "voltage": 228.29,
+    "currentAmps": 14.02,
+    "powerWatts": 3200.6
+   },
+   {
+    "t": "2026-11-09T20:49:39.262Z",
+    "voltage": 227.84,
+    "currentAmps": 14.13,
+    "powerWatts": 3219.4
+   },
+   {
+    "t": "2026-11-09T20:49:39.762Z",
+    "voltage": 227.14,
+    "currentAmps": 14.47,
+    "powerWatts": 3286.7
+   },
+   {
+    "t": "2026-11-09T20:49:40.262Z",
+    "voltage": 227.83,
+    "currentAmps": 14.8,
+    "powerWatts": 3371.9
+   },
+   {
+    "t": "2026-11-09T20:49:40.762Z",
+    "voltage": 228.28,
+    "currentAmps": 14.29,
+    "powerWatts": 3262.1
+   },
+   {
+    "t": "2026-11-09T20:49:41.262Z",
+    "voltage": 227.86,
+    "currentAmps": 14,
+    "powerWatts": 3190
+   },
+   {
+    "t": "2026-11-09T20:49:41.763Z",
+    "voltage": 227.86,
+    "currentAmps": 14.37,
+    "powerWatts": 3274.3
+   },
+   {
+    "t": "2026-11-09T20:49:42.264Z",
+    "voltage": 228.01,
+    "currentAmps": 13.86,
+    "powerWatts": 3160.2
+   },
+   {
+    "t": "2026-11-09T20:49:42.764Z",
+    "voltage": 228.94,
+    "currentAmps": 13.32,
+    "powerWatts": 3049.5
+   },
+   {
+    "t": "2026-11-09T20:49:43.265Z",
+    "voltage": 227.88,
+    "currentAmps": 12.97,
+    "powerWatts": 2955.6
+   },
+   {
+    "t": "2026-11-09T20:49:43.766Z",
+    "voltage": 229.32,
+    "currentAmps": 13.26,
+    "powerWatts": 3040.8
+   },
+   {
+    "t": "2026-11-09T20:49:44.267Z",
+    "voltage": 230.73,
+    "currentAmps": 13.18,
+    "powerWatts": 3041
+   },
+   {
+    "t": "2026-11-09T20:49:44.768Z",
+    "voltage": 230.87,
+    "currentAmps": 12.21,
+    "powerWatts": 2818.9
+   },
+   {
+    "t": "2026-11-09T20:49:45.268Z",
+    "voltage": 231.85,
+    "currentAmps": 11.98,
+    "powerWatts": 2777.6
+   },
+   {
+    "t": "2026-11-09T20:49:45.769Z",
+    "voltage": 230.74,
+    "currentAmps": 11.8,
+    "powerWatts": 2722.7
+   },
+   {
+    "t": "2026-11-09T20:49:46.269Z",
+    "voltage": 231.45,
+    "currentAmps": 12.47,
+    "powerWatts": 2886.2
+   },
+   {
+    "t": "2026-11-09T20:49:46.769Z",
+    "voltage": 231.56,
+    "currentAmps": 11.65,
+    "powerWatts": 2697.7
+   },
+   {
+    "t": "2026-11-09T20:49:47.269Z",
+    "voltage": 232.77,
+    "currentAmps": 11.95,
+    "powerWatts": 2781.6
+   },
+   {
+    "t": "2026-11-09T20:49:47.769Z",
+    "voltage": 232.52,
+    "currentAmps": 11,
+    "powerWatts": 2557.7
+   },
+   {
+    "t": "2026-11-09T20:49:48.270Z",
+    "voltage": 233.45,
+    "currentAmps": 11.57,
+    "powerWatts": 2701
+   },
+   {
+    "t": "2026-11-09T20:49:48.771Z",
+    "voltage": 233.32,
+    "currentAmps": 11.32,
+    "powerWatts": 2641.2
+   },
+   {
+    "t": "2026-11-09T20:49:49.271Z",
+    "voltage": 233.59,
+    "currentAmps": 11.28,
+    "powerWatts": 2634.9
+   },
+   {
+    "t": "2026-11-09T20:49:49.771Z",
+    "voltage": 234.09,
+    "currentAmps": 10.67,
+    "powerWatts": 2497.7
+   },
+   {
+    "t": "2026-11-09T20:49:50.272Z",
+    "voltage": 233.56,
+    "currentAmps": 10.96,
+    "powerWatts": 2559.8
+   },
+   {
+    "t": "2026-11-09T20:49:50.773Z",
+    "voltage": 233.86,
+    "currentAmps": 10.01,
+    "powerWatts": 2340.9
+   },
+   {
+    "t": "2026-11-09T20:49:51.273Z",
+    "voltage": 234.04,
+    "currentAmps": 9.79,
+    "powerWatts": 2291.3
+   },
+   {
+    "t": "2026-11-09T20:49:51.773Z",
+    "voltage": 235.1,
+    "currentAmps": 10.73,
+    "powerWatts": 2522.6
+   },
+   {
+    "t": "2026-11-09T20:49:52.274Z",
+    "voltage": 234.94,
+    "currentAmps": 10.38,
+    "powerWatts": 2438.7
+   },
+   {
+    "t": "2026-11-09T20:49:52.775Z",
+    "voltage": 234.86,
+    "currentAmps": 9.82,
+    "powerWatts": 2306.3
+   },
+   {
+    "t": "2026-11-09T20:49:53.275Z",
+    "voltage": 234.24,
+    "currentAmps": 9.64,
+    "powerWatts": 2258.1
+   },
+   {
+    "t": "2026-11-09T20:49:53.775Z",
+    "voltage": 233.02,
+    "currentAmps": 10.48,
+    "powerWatts": 2442
+   },
+   {
+    "t": "2026-11-09T20:49:54.276Z",
+    "voltage": 233.36,
+    "currentAmps": 10.74,
+    "powerWatts": 2506.3
+   },
+   {
+    "t": "2026-11-09T20:49:54.777Z",
+    "voltage": 231.17,
+    "currentAmps": 10.35,
+    "powerWatts": 2392.6
+   },
+   {
+    "t": "2026-11-09T20:49:55.278Z",
+    "voltage": 230.63,
+    "currentAmps": 10.14,
+    "powerWatts": 2338.6
+   },
+   {
+    "t": "2026-11-09T20:49:55.778Z",
+    "voltage": 231.5,
+    "currentAmps": 10.75,
+    "powerWatts": 2488.6
+   },
+   {
+    "t": "2026-11-09T20:49:56.279Z",
+    "voltage": 229.58,
+    "currentAmps": 10.37,
+    "powerWatts": 2380.7
+   },
+   {
+    "t": "2026-11-09T20:49:56.779Z",
+    "voltage": 231.25,
+    "currentAmps": 11.08,
+    "powerWatts": 2562.3
+   },
+   {
+    "t": "2026-11-09T20:49:57.280Z",
+    "voltage": 229.96,
+    "currentAmps": 10.54,
+    "powerWatts": 2423.8
+   },
+   {
+    "t": "2026-11-09T20:49:57.780Z",
+    "voltage": 228.17,
+    "currentAmps": 10.71,
+    "powerWatts": 2443.7
+   },
+   {
+    "t": "2026-11-09T20:49:58.282Z",
+    "voltage": 227.92,
+    "currentAmps": 11.65,
+    "powerWatts": 2655.3
+   }
+  ],
+  "node-south-03": [
+   {
+    "t": "2026-11-09T20:49:38.762Z",
+    "voltage": 173.22,
+    "currentAmps": 24.57,
+    "powerWatts": 4256
+   },
+   {
+    "t": "2026-11-09T20:49:39.262Z",
+    "voltage": 225.32,
+    "currentAmps": 19.48,
+    "powerWatts": 4389.2
+   },
+   {
+    "t": "2026-11-09T20:49:39.762Z",
+    "voltage": 225.4,
+    "currentAmps": 19.35,
+    "powerWatts": 4361.5
+   },
+   {
+    "t": "2026-11-09T20:49:40.262Z",
+    "voltage": 222.9,
+    "currentAmps": 20.64,
+    "powerWatts": 4600.7
+   },
+   {
+    "t": "2026-11-09T20:49:40.762Z",
+    "voltage": 222.71,
+    "currentAmps": 20.57,
+    "powerWatts": 4581.1
+   },
+   {
+    "t": "2026-11-09T20:49:41.262Z",
+    "voltage": 223.25,
+    "currentAmps": 20.23,
+    "powerWatts": 4516.3
+   },
+   {
+    "t": "2026-11-09T20:49:41.763Z",
+    "voltage": 221.39,
+    "currentAmps": 20.08,
+    "powerWatts": 4445.5
+   },
+   {
+    "t": "2026-11-09T20:49:42.264Z",
+    "voltage": 220.81,
+    "currentAmps": 20.55,
+    "powerWatts": 4537.6
+   },
+   {
+    "t": "2026-11-09T20:49:42.764Z",
+    "voltage": 220.9,
+    "currentAmps": 19.93,
+    "powerWatts": 4402.5
+   },
+   {
+    "t": "2026-11-09T20:49:43.265Z",
+    "voltage": 220.09,
+    "currentAmps": 19.86,
+    "powerWatts": 4371
+   },
+   {
+    "t": "2026-11-09T20:49:43.766Z",
+    "voltage": 220.22,
+    "currentAmps": 19.79,
+    "powerWatts": 4358.2
+   },
+   {
+    "t": "2026-11-09T20:49:44.267Z",
+    "voltage": 221.71,
+    "currentAmps": 20.24,
+    "powerWatts": 4487.4
+   },
+   {
+    "t": "2026-11-09T20:49:44.768Z",
+    "voltage": 220.39,
+    "currentAmps": 19.79,
+    "powerWatts": 4361.5
+   },
+   {
+    "t": "2026-11-09T20:49:45.268Z",
+    "voltage": 221.13,
+    "currentAmps": 19.74,
+    "powerWatts": 4365.1
+   },
+   {
+    "t": "2026-11-09T20:49:45.769Z",
+    "voltage": 221.6,
+    "currentAmps": 20.14,
+    "powerWatts": 4463
+   },
+   {
+    "t": "2026-11-09T20:49:46.269Z",
+    "voltage": 221.14,
+    "currentAmps": 19.62,
+    "powerWatts": 4338.8
+   },
+   {
+    "t": "2026-11-09T20:49:46.769Z",
+    "voltage": 220.61,
+    "currentAmps": 19.19,
+    "powerWatts": 4233.5
+   },
+   {
+    "t": "2026-11-09T20:49:47.269Z",
+    "voltage": 222.06,
+    "currentAmps": 19.83,
+    "powerWatts": 4403.4
+   },
+   {
+    "t": "2026-11-09T20:49:47.769Z",
+    "voltage": 222.34,
+    "currentAmps": 19.86,
+    "powerWatts": 4415.7
+   },
+   {
+    "t": "2026-11-09T20:49:48.270Z",
+    "voltage": 222.14,
+    "currentAmps": 18.91,
+    "powerWatts": 4200.7
+   },
+   {
+    "t": "2026-11-09T20:49:48.771Z",
+    "voltage": 222.23,
+    "currentAmps": 18.67,
+    "powerWatts": 4149
+   },
+   {
+    "t": "2026-11-09T20:49:49.271Z",
+    "voltage": 221.79,
+    "currentAmps": 18.24,
+    "powerWatts": 4045.4
+   },
+   {
+    "t": "2026-11-09T20:49:49.771Z",
+    "voltage": 222.84,
+    "currentAmps": 18.66,
+    "powerWatts": 4158.2
+   },
+   {
+    "t": "2026-11-09T20:49:50.272Z",
+    "voltage": 222.69,
+    "currentAmps": 18.49,
+    "powerWatts": 4117.5
+   },
+   {
+    "t": "2026-11-09T20:49:50.773Z",
+    "voltage": 225.36,
+    "currentAmps": 18.08,
+    "powerWatts": 4074.5
+   },
+   {
+    "t": "2026-11-09T20:49:51.273Z",
+    "voltage": 224.76,
+    "currentAmps": 18.14,
+    "powerWatts": 4077.1
+   },
+   {
+    "t": "2026-11-09T20:49:51.773Z",
+    "voltage": 225.29,
+    "currentAmps": 17.52,
+    "powerWatts": 3947.1
+   },
+   {
+    "t": "2026-11-09T20:49:52.274Z",
+    "voltage": 226.47,
+    "currentAmps": 17.51,
+    "powerWatts": 3965.5
+   },
+   {
+    "t": "2026-11-09T20:49:52.775Z",
+    "voltage": 175.49,
+    "currentAmps": 24.57,
+    "powerWatts": 4311.8
+   },
+   {
+    "t": "2026-11-09T20:49:53.275Z",
+    "voltage": 175.16,
+    "currentAmps": 24.57,
+    "powerWatts": 4303.7
+   },
+   {
+    "t": "2026-11-09T20:49:53.775Z",
+    "voltage": 173.44,
+    "currentAmps": 24.57,
+    "powerWatts": 4261.4
+   },
+   {
+    "t": "2026-11-09T20:49:54.276Z",
+    "voltage": 173.11,
+    "currentAmps": 24.57,
+    "powerWatts": 4253.3
+   },
+   {
+    "t": "2026-11-09T20:49:54.777Z",
+    "voltage": 174.76,
+    "currentAmps": 24.57,
+    "powerWatts": 4293.9
+   },
+   {
+    "t": "2026-11-09T20:49:55.278Z",
+    "voltage": 168.2,
+    "currentAmps": 24.57,
+    "powerWatts": 4132.7
+   },
+   {
+    "t": "2026-11-09T20:49:55.778Z",
+    "voltage": 172.29,
+    "currentAmps": 24.57,
+    "powerWatts": 4233.2
+   },
+   {
+    "t": "2026-11-09T20:49:56.279Z",
+    "voltage": 177.22,
+    "currentAmps": 24.57,
+    "powerWatts": 4354.3
+   },
+   {
+    "t": "2026-11-09T20:49:56.779Z",
+    "voltage": 172.56,
+    "currentAmps": 24.57,
+    "powerWatts": 4239.8
+   },
+   {
+    "t": "2026-11-09T20:49:57.280Z",
+    "voltage": 171.31,
+    "currentAmps": 24.57,
+    "powerWatts": 4209.1
+   },
+   {
+    "t": "2026-11-09T20:49:57.780Z",
+    "voltage": 169.02,
+    "currentAmps": 24.57,
+    "powerWatts": 4152.8
+   },
+   {
+    "t": "2026-11-09T20:49:58.282Z",
+    "voltage": 171.39,
+    "currentAmps": 24.57,
+    "powerWatts": 4211.1
+   }
+  ],
+  "node-west-04": [
+   {
+    "t": "2026-11-09T20:49:38.762Z",
+    "voltage": 237.15,
+    "currentAmps": 10.25,
+    "powerWatts": 2430.8
+   },
+   {
+    "t": "2026-11-09T20:49:39.262Z",
+    "voltage": 237.34,
+    "currentAmps": 10.23,
+    "powerWatts": 2428
+   },
+   {
+    "t": "2026-11-09T20:49:39.762Z",
+    "voltage": 237.54,
+    "currentAmps": 11.45,
+    "powerWatts": 2719.8
+   },
+   {
+    "t": "2026-11-09T20:49:40.262Z",
+    "voltage": 236.47,
+    "currentAmps": 11.08,
+    "powerWatts": 2620.1
+   },
+   {
+    "t": "2026-11-09T20:49:40.762Z",
+    "voltage": 236.33,
+    "currentAmps": 11.88,
+    "powerWatts": 2807.6
+   },
+   {
+    "t": "2026-11-09T20:49:41.262Z",
+    "voltage": 235.03,
+    "currentAmps": 12.01,
+    "powerWatts": 2822.7
+   },
+   {
+    "t": "2026-11-09T20:49:41.763Z",
+    "voltage": 235.59,
+    "currentAmps": 11.07,
+    "powerWatts": 2608
+   },
+   {
+    "t": "2026-11-09T20:49:42.264Z",
+    "voltage": 235.92,
+    "currentAmps": 12.11,
+    "powerWatts": 2857
+   },
+   {
+    "t": "2026-11-09T20:49:42.764Z",
+    "voltage": 235.44,
+    "currentAmps": 11.93,
+    "powerWatts": 2808.8
+   },
+   {
+    "t": "2026-11-09T20:49:43.265Z",
+    "voltage": 233.34,
+    "currentAmps": 11.68,
+    "powerWatts": 2725.4
+   },
+   {
+    "t": "2026-11-09T20:49:43.766Z",
+    "voltage": 233.86,
+    "currentAmps": 11.39,
+    "powerWatts": 2663.7
+   },
+   {
+    "t": "2026-11-09T20:49:44.267Z",
+    "voltage": 233.69,
+    "currentAmps": 12.05,
+    "powerWatts": 2816
+   },
+   {
+    "t": "2026-11-09T20:49:44.768Z",
+    "voltage": 231.85,
+    "currentAmps": 11.91,
+    "powerWatts": 2761.3
+   },
+   {
+    "t": "2026-11-09T20:49:45.268Z",
+    "voltage": 232.2,
+    "currentAmps": 11.44,
+    "powerWatts": 2656.4
+   },
+   {
+    "t": "2026-11-09T20:49:45.769Z",
+    "voltage": 231.4,
+    "currentAmps": 11.17,
+    "powerWatts": 2584.7
+   },
+   {
+    "t": "2026-11-09T20:49:46.269Z",
+    "voltage": 232.82,
+    "currentAmps": 12.16,
+    "powerWatts": 2831.1
+   },
+   {
+    "t": "2026-11-09T20:49:46.769Z",
+    "voltage": 231.65,
+    "currentAmps": 10.97,
+    "powerWatts": 2541.2
+   },
+   {
+    "t": "2026-11-09T20:49:47.269Z",
+    "voltage": 233.42,
+    "currentAmps": 10.89,
+    "powerWatts": 2541.9
+   },
+   {
+    "t": "2026-11-09T20:49:47.769Z",
+    "voltage": 233.52,
+    "currentAmps": 11.05,
+    "powerWatts": 2580.4
+   },
+   {
+    "t": "2026-11-09T20:49:48.270Z",
+    "voltage": 232.99,
+    "currentAmps": 10.84,
+    "powerWatts": 2525.6
+   },
+   {
+    "t": "2026-11-09T20:49:48.771Z",
+    "voltage": 234.05,
+    "currentAmps": 10.48,
+    "powerWatts": 2452.8
+   },
+   {
+    "t": "2026-11-09T20:49:49.271Z",
+    "voltage": 233.58,
+    "currentAmps": 10.63,
+    "powerWatts": 2483
+   },
+   {
+    "t": "2026-11-09T20:49:49.771Z",
+    "voltage": 234.05,
+    "currentAmps": 10.56,
+    "powerWatts": 2471.6
+   },
+   {
+    "t": "2026-11-09T20:49:50.272Z",
+    "voltage": 235.68,
+    "currentAmps": 9.79,
+    "powerWatts": 2307.3
+   },
+   {
+    "t": "2026-11-09T20:49:50.773Z",
+    "voltage": 235.85,
+    "currentAmps": 10.24,
+    "powerWatts": 2415.1
+   },
+   {
+    "t": "2026-11-09T20:49:51.273Z",
+    "voltage": 234.81,
+    "currentAmps": 10.17,
+    "powerWatts": 2388
+   },
+   {
+    "t": "2026-11-09T20:49:51.773Z",
+    "voltage": 270.7,
+    "currentAmps": 7.68,
+    "powerWatts": 2079
+   },
+   {
+    "t": "2026-11-09T20:49:52.274Z",
+    "voltage": 277.85,
+    "currentAmps": 7.68,
+    "powerWatts": 2133.9
+   },
+   {
+    "t": "2026-11-09T20:49:52.775Z",
+    "voltage": 274.76,
+    "currentAmps": 7.68,
+    "powerWatts": 2110.2
+   },
+   {
+    "t": "2026-11-09T20:49:53.275Z",
+    "voltage": 274.26,
+    "currentAmps": 7.68,
+    "powerWatts": 2106.3
+   },
+   {
+    "t": "2026-11-09T20:49:53.775Z",
+    "voltage": 271.9,
+    "currentAmps": 7.68,
+    "powerWatts": 2088.2
+   },
+   {
+    "t": "2026-11-09T20:49:54.276Z",
+    "voltage": 237.77,
+    "currentAmps": 8.76,
+    "powerWatts": 2082.9
+   },
+   {
+    "t": "2026-11-09T20:49:54.777Z",
+    "voltage": 239.91,
+    "currentAmps": 7.8,
+    "powerWatts": 1871.3
+   },
+   {
+    "t": "2026-11-09T20:49:55.278Z",
+    "voltage": 238.07,
+    "currentAmps": 8.41,
+    "powerWatts": 2002.2
+   },
+   {
+    "t": "2026-11-09T20:49:55.778Z",
+    "voltage": 238.53,
+    "currentAmps": 7.8,
+    "powerWatts": 1860.5
+   },
+   {
+    "t": "2026-11-09T20:49:56.279Z",
+    "voltage": 238.3,
+    "currentAmps": 7.38,
+    "powerWatts": 1758.7
+   },
+   {
+    "t": "2026-11-09T20:49:56.779Z",
+    "voltage": 238.83,
+    "currentAmps": 7.76,
+    "powerWatts": 1853.3
+   },
+   {
+    "t": "2026-11-09T20:49:57.280Z",
+    "voltage": 239.38,
+    "currentAmps": 7.9,
+    "powerWatts": 1891.1
+   },
+   {
+    "t": "2026-11-09T20:49:57.780Z",
+    "voltage": 239.46,
+    "currentAmps": 7.28,
+    "powerWatts": 1743.3
+   },
+   {
+    "t": "2026-11-09T20:49:58.282Z",
+    "voltage": 237.96,
+    "currentAmps": 7.85,
+    "powerWatts": 1868
+   }
+  ]
+ },
+ "alerts": {
+  "count": 8,
+  "alerts": [
+   {
+    "id": "14",
+    "node_id": "node-south-03",
+    "kind": "low_voltage",
+    "voltage": 175.49,
+    "message": "Grid drop detected at node node-south-03: 175.5V (below 180V)",
+    "raised_at": "2026-11-09T20:49:52.778Z"
+   },
+   {
+    "id": "13",
+    "node_id": "node-west-04",
+    "kind": "over_voltage",
+    "voltage": 270.7,
+    "message": "Over-voltage detected at node node-west-04: 270.7V (above 260V)",
+    "raised_at": "2026-11-09T20:49:51.775Z"
+   },
+   {
+    "id": "12",
+    "node_id": "node-west-04",
+    "kind": "over_voltage",
+    "voltage": 271.92,
+    "message": "Over-voltage detected at node node-west-04: 271.9V (above 260V)",
+    "raised_at": "2026-11-09T20:49:31.755Z"
+   },
+   {
+    "id": "11",
+    "node_id": "node-south-03",
+    "kind": "low_voltage",
+    "voltage": 170.07,
+    "message": "Grid drop detected at node node-south-03: 170.1V (below 180V)",
+    "raised_at": "2026-11-09T20:49:31.255Z"
+   },
+   {
+    "id": "10",
+    "node_id": "node-west-04",
+    "kind": "over_voltage",
+    "voltage": 277.46,
+    "message": "Over-voltage detected at node node-west-04: 277.5V (above 260V)",
+    "raised_at": "2026-11-09T20:49:16.234Z"
+   },
+   {
+    "id": "9",
+    "node_id": "node-west-04",
+    "kind": "over_voltage",
+    "voltage": 268.11,
+    "message": "Over-voltage detected at node node-west-04: 268.1V (above 260V)",
+    "raised_at": "2026-11-09T20:49:11.230Z"
+   },
+   {
+    "id": "8",
+    "node_id": "node-west-04",
+    "kind": "over_voltage",
+    "voltage": 272.2,
+    "message": "Over-voltage detected at node node-west-04: 272.2V (above 260V)",
+    "raised_at": "2026-11-09T20:49:00.216Z"
+   },
+   {
+    "id": "7",
+    "node_id": "node-south-03",
+    "kind": "low_voltage",
+    "voltage": 174.73,
+    "message": "Grid drop detected at node node-south-03: 174.7V (below 180V)",
+    "raised_at": "2026-11-09T20:48:59.249Z"
+   }
+  ]
+ }
+}

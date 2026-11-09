@@ -1,0 +1,35 @@
+{
+  "name": "iot-grid-telemetry",
+  "version": "1.0.0",
+  "description": "IoT grid telemetry ingestion pipeline: MQTT -> Redis (live cache) -> TimescaleDB/Postgres (history) with a live monitoring dashboard.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start:prod": "node dist/server.js",
+    "simulate": "tsx src/simulator.ts",
+    "migrate": "tsx src/migrate.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "fastify": "^5.12.8",
+    "ioredis": "^6.0.0",
+    "mqtt": "^5.16.1",
+    "pg": "^8.23.1",
+    "pino": "^10.4.0",
+    "pino-pretty": "^13.2.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/pg": "^8.15.6",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,87 @@
+# ─────────────────────────────────────────────────────────────
+# Full local stack: TimescaleDB + Redis + Mosquitto + the service.
+#
+#   docker compose up -d
+#   docker compose run --rm app npm run migrate
+#   docker compose run --rm app npm run simulate
+#   open http://localhost:3000
+# ─────────────────────────────────────────────────────────────
+services:
+  timescaledb:
+    image: timescale/timescaledb:latest-pg16
+    container_name: grid-timescaledb
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: grid
+    ports:
+      - "5432:5432"
+    volumes:
+      - timescale-data:/var/lib/postgresql/data
+      # Schema is applied automatically on first boot of an empty volume.
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d grid"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: grid-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: grid-mosquitto
+    restart: unless-stopped
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./docker/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - mosquitto-data:/mosquitto/data
+    healthcheck:
+      test: ["CMD-SHELL", "mosquitto_sub -h 127.0.0.1 -t '$$SYS/#' -C 1 -W 3 >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build: .
+    container_name: grid-app
+    restart: unless-stopped
+    depends_on:
+      timescaledb:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      mosquitto:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      LOG_PRETTY: "false"
+      DATABASE_URL: postgres://postgres:postgres@timescaledb:5432/grid
+      REDIS_URL: redis://redis:6379
+      MQTT_BROKER_URL: mqtt://mosquitto:1883
+      HTTP_PORT: "3000"
+      ALERT_VOLTAGE_MIN: "180"
+      ALERT_VOLTAGE_MAX: "260"
+      REDIS_LIVE_TTL_SECONDS: "120"
+    ports:
+      - "3000:3000"
+
+volumes:
+  timescale-data:
+  redis-data:
+  mosquitto-data:
